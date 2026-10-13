@@ -4,7 +4,7 @@
    matched by the teacher's name as written on the timetable.
    Taken from the Aluna Timetable Autumn/Winter 2026 Canva design.
    To add or change one, edit the line below. Teachers without a
-   line (e.g. Emma, Laura) show no booking link.
+   line show no booking link.
    ========================================================== */
 const BOOKING_LINKS = {
   Andrea:    "http://buk.ie/aluna",
@@ -13,6 +13,7 @@ const BOOKING_LINKS = {
   Paul:      "mailto:info@absoluteyoga.com",
   Edel:      "https://www.babysensory.ie/login?cid=1201&returnUrl=%2Fbooking%2Fwaitlist%3Fcid%3D1201%26clid%3D310029",
   Megan:     "https://bookinghawk.com/events-overview/saol-pilates/1161",
+  Emma:      "https://bookinghawk.com/events-overview/saol-pilates/1161",
   Katie:     "https://twinklekids.ie/register-for-new-term",
   Claire:    "https://bookinghawk.com/events-overview/down-to-earth-yoga-with-claire/608",
   Aishling:  "https://bookinghawk.com/events-overview/form-pilates/1383",
@@ -21,6 +22,7 @@ const BOOKING_LINKS = {
   Sinead:    "mailto:sineadmcnamara2016@outlook.com",
   Sharon:    "https://bookinghawk.com/events-overview/little-fire-yoga/1433",
   Quiva:     "https://bookinghawk.com/events-overview/o-croi/1437",
+  Laura:     "https://bookinghawk.com/events-overview/embodied-yoga-with-laura/1494",
 };
 
 (function linkTeachers() {
