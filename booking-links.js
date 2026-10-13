@@ -4,7 +4,7 @@
    matched by the teacher's name as written on the timetable.
    Taken from the Aluna Timetable Autumn/Winter 2026 Canva design.
    To add or change one, edit the line below. Teachers without a
-   line (e.g. Emma) show no booking link.
+   line (e.g. Emma, Laura) show no booking link.
    ========================================================== */
 const BOOKING_LINKS = {
   Andrea:    "http://buk.ie/aluna",
