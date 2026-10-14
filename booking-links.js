@@ -22,6 +22,7 @@ const BOOKING_LINKS = {
   Alisha:    "https://eabhacrystals.com/product-category/events/",
   Sinead:    "mailto:sineadmcnamara2016@outlook.com",
   Sharon:    "https://bookinghawk.com/events-overview/little-fire-yoga/1433",
+  Jennifer:  "https://www.yogabyjend.com/book-online",
   Quiva:     "https://bookinghawk.com/events-overview/o-croi/1437",
   Laura:     "https://bookinghawk.com/events-overview/embodied-yoga-with-laura/1494",
 };
