@@ -14,6 +14,7 @@ const BOOKING_LINKS = {
   Paul:      "mailto:info@absoluteyoga.com",
   Edel:      "https://www.babysensory.ie/login?cid=1201&returnUrl=%2Fbooking%2Fwaitlist%3Fcid%3D1201%26clid%3D310029",
   Megan:     "https://bookinghawk.com/events-overview/saol-pilates/1161",
+  Emma:      "https://bookinghawk.com/events-overview/emma-fagan-pilates/1477",
   Katie:     "https://twinklekids.ie/register-for-new-term",
   Claire:    "https://bookinghawk.com/events-overview/down-to-earth-yoga-with-claire/608",
   Aishling:  "https://bookinghawk.com/events-overview/form-pilates/1383",
