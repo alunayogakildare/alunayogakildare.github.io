@@ -39,7 +39,7 @@ body {
   background: var(--cream);
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--navy); }
 
 h1, h2, h3 {
@@ -257,6 +257,20 @@ h1 em, h2 em { font-style: italic; }
 }
 .pull-quote footer { color: var(--muted); }
 
+.studio-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+.studio-strip img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 999px 999px var(--radius) var(--radius);
+  box-shadow: var(--shadow);
+}
+
 /* ---------- Classes ---------- */
 .classes { background: var(--mist); }
 .card-grid {
@@ -411,6 +425,19 @@ a.slot:hover .book, a.slot:focus-visible .book { opacity: 1; }
 .therapies-grid > div p { color: #c3cfe0; margin-bottom: 2rem; }
 .therapies .btn { background: #fff; color: var(--navy-deep); border-color: #fff; }
 .therapies .btn:hover { background: var(--mist); }
+.therapy-photo {
+  margin-top: 2.5rem;
+  max-width: 360px;
+}
+.therapy-photo img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 999px 999px var(--radius) var(--radius);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
 .therapy-list { list-style: none; margin: 0; padding: 0; }
 .therapy-list li {
   display: flex;
@@ -465,7 +492,8 @@ a.slot:hover .book, a.slot:focus-visible .book { opacity: 1; }
   margin-bottom: 0.1rem;
 }
 
-/* ---------- Gardens ---------- */
+/* ---------- Studio & Gardens ---------- */
+.studio-gallery { background: var(--blush); }
 .gardens { background: var(--mist); }
 .gallery {
   display: grid;
@@ -476,9 +504,8 @@ a.slot:hover .book, a.slot:focus-visible .book { opacity: 1; }
   width: 100%;
   aspect-ratio: 3 / 4.5;
   object-fit: cover;
-  border-radius: var(--radius);
+  border-radius: 999px 999px var(--radius) var(--radius);
 }
-.gallery img:nth-child(odd) { border-radius: 999px 999px var(--radius) var(--radius); }
 
 /* ---------- Contact ---------- */
 .contact { padding-bottom: 0; }
@@ -555,6 +582,7 @@ address { font-style: normal; margin-bottom: 1.2rem; }
   .therapies-grid,
   .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .about-image { max-width: 360px; }
+  .studio-strip { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: repeat(2, 1fr); }
   .week { grid-template-columns: repeat(2, 1fr); }
 }
